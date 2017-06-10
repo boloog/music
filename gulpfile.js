@@ -21,6 +21,9 @@ gulp.task('css', function(){
 gulp.task('less', function () {
     gulp.src(['./less/*.less','!./less/{reset,test}.less'])
         .pipe(less())
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(minifycss())
         .pipe(gulp.dest('./dist/css'));
 });
