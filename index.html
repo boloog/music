@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="referrer" content="no-referrer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MUSIC播放器</title>
+    <link rel="stylesheet" href="./dist/css/music.css">
+</head>
+<body>
+<div class="music-box">
+    <div class="img-filter"></div>
+    <div class="layer-ct"></div>
+    <img src="./img/lazyload@2x.gif" class="picture" id="picture">
+    <div class="music-content">
+        <i class="music-icon lyric-like-share lyric" data-type="0">&#xe629;</i>
+        <i class="music-icon lyric-like-share like" data-type="0">&#xe601;</i>
+        <i class="music-icon lyric-like-share share">&#xe624;</i>
+        <div class="album-box"></div>
+        <div class="lyric-box"></div>
+        <div class="player-box">
+            <div class="progress">
+                <div class="progress-line">
+                    <s class="progress-handle"></s>
+                </div>
+            </div>
+            <span class="time current-time">0:00</span>
+            <i class="music-icon play-btn">&#xe6ee;</i>
+            <i class="music-icon p-n-btn next">&#xe718;</i>
+            <i class="music-icon p-n-btn out-type" data-type="0">&#xe67c;</i>
+            <i class="music-icon vol">&#xe63d;</i>
+            <div class="volume-bar">
+                <span class="volume-line">
+                    <span class="volume-handle"></span>
+                </span>
+            </div>
+            <span class="time duration-time">0:00</span>
+    </div>
+    </div>
+</div>
+<audio src="" id="audio">您的浏览器不支持 audio 标签。</audio>
+<script src="./dist/js/music.js"></script>
+</body>
+</html>

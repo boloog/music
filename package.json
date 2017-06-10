@@ -1,0 +1,37 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "music",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.4",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/boloog/music.git"
+  },
+  "keywords": [
+    "music",
+    "player"
+  ],
+  "author": "boloog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boloog/music/issues"
+  },
+  "homepage": "https://github.com/boloog/music#readme"
+}
