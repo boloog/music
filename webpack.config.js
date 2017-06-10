@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   entry: './app.js',
   output: {
-    filename: 'music.js',
+    filename: 'music.min.js',
     path: path.resolve(__dirname, 'dist/js')
   },
   plugins: [
