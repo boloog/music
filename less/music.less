@@ -1,4 +1,4 @@
-@bgcolor: linear-gradient(45deg, #ebc45c 0%, #4bb0ca 100%);
+@bgcolor: linear-gradient(45deg,#4bb0ca 0,#ebc45c 100%);
 @font-size: 24px;
 .box-shadow (@x: 0, @y: 20px, @blur: 40px, @color: #5b6b77) {
   box-shadow: @arguments;
@@ -282,4 +282,11 @@ body{
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    a{
+        text-decoration: none;
+        color: #222;
+        &:hover{
+            color: #fff;
+        }
+    }
 }
