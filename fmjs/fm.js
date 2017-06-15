@@ -126,6 +126,7 @@ var Music = (function(){
         this.btn.on('mouseup', function(){
             _this.clicking = false;
             _this.audio.play();
+            $('.play-btn').html('&#xe6ee;');
         })
         this.progress.on('mousemove click', function(e){
             if(_this.clicking || e.type === 'click'){
@@ -135,6 +136,8 @@ var Music = (function(){
                 if(volume <= 1 || volume >= 0){
                     _this.audio.currentTime =  volume * _this.audio.duration;
                     _this.progressLine.css('width', volume *100 +'%');
+                    _this.audio.play();
+                    $('.play-btn').html('&#xe6ee;');
                 }
             }
         });
